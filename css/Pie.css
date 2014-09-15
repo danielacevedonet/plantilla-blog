@@ -1,0 +1,12 @@
+.Pie-parrafo {
+	float: right;
+	font-size: 0.6em;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.Pie-link {
+	text-decoration: none;
+}
+.Pie-link:hover {
+	text-decoration: underline;
+}

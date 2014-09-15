@@ -1,0 +1,17 @@
+
+.Widget-lista {
+	font-size: 0.8em;
+	margin-left: -0.8em;
+}
+.Widget-imagen {
+	height: 8.5em;
+	margin-bottom: 1em;
+	width: 19em;
+	
+}
+.Widget-link {
+	text-decoration: none;	
+}
+.Widget-opcion {
+	line-height: 1.5em;
+}

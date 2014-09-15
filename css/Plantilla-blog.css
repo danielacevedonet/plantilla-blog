@@ -1,0 +1,111 @@
+@import url("Fondos-colores.css");
+@import url("Modelos-cajas.css");
+@import url("Botones.css");
+@import url("Menus-principal.css");
+@import url("Titulos-h.css");
+@import url("Articulos.css");
+@import url("Widget.css");
+@import url("Paginacion.css");
+@import url("Pie.css");
+
+
+
+.Fondo-gris{
+	-webkit-border-radius: 8px;
+	        border-radius: 8px;
+}
+
+/* Colores de la Plantilla
+===================================*/
+body {
+	background: #DDDDDD;
+}
+.Articulo-autor,
+.Articulo-fecha {
+	color: #646464;
+}
+.Articulo-informacion {
+	border-bottom: 1px solid #ebebeb;
+	border-top: 1px solid #ebebeb;
+	color: #9e9e9e;
+}
+.Articulo-imagen {
+	border-radius: 8px;
+	border: 5px solid #e8e8e8;
+}
+.Articulo-link{
+	color: #222;
+	background: #F2F2F2;
+	border: 1px solid #ccc;
+}
+.Articulo-parrafo {
+	color: #201F1F;
+}
+.Articulo-titulo {
+	color:#111;
+}
+.Contenedor {
+	background: #FFF;
+	border-right: 1px solid #bfbfbf;
+}
+.ContenedorCompleto {
+	background: #FFF;
+}
+.Fondo-gris {
+	border: 1px solid #bfbfbf;
+	border-left: 1px solid #bfbfbf;
+}
+.Lateral {
+	background: #e7e7e7;
+	background: -moz-linear-gradient(left, #e7e7e7 0%, #e7e7e7 2%, #f0f0f0 5%, #f0f0f0 64%, #f0f0f0 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #e7e7e7), color-stop(2%, #e7e7e7), color-stop(5%, #f0f0f0), color-stop(64%, #f0f0f0), color-stop(100%, #f0f0f0));
+	background: -webkit-linear-gradient(left, #e7e7e7 0%, #e7e7e7 2%, #f0f0f0 5%, #f0f0f0 64%, #f0f0f0 100%);
+	background: -o-linear-gradient(left, #e7e7e7 0%, #e7e7e7 2%, #f0f0f0 5%, #f0f0f0 64%, #f0f0f0 100%);
+	background: -ms-linear-gradient(left, #e7e7e7 0%, #e7e7e7 2%, #f0f0f0 5%, #f0f0f0 64%, #f0f0f0 100%);
+	background: linear-gradient(to right, #e7e7e7 0%, #e7e7e7 2%, #f0f0f0 5%, #f0f0f0 64%, #f0f0f0 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e7', endColorstr='#f0f0f0', GradientType=1 );
+}
+.MenuPrincipal-link {
+	text-shadow:0px 1px 0px #fff;
+}
+.MenuPrincipal-link:hover {
+	background-color:#fff;
+	border: 1px solid #9a9a9a;
+}
+.MenuPrincipal-lista {
+	background-color:#c9c9c9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c9c9c9), color-stop(1, #b6b6b6));
+	background:-moz-linear-gradient(top, #c9c9c9 5%, #b6b6b6 100%);
+	background:-webkit-linear-gradient(top, #c9c9c9 5%, #b6b6b6 100%);
+	background:-o-linear-gradient(top, #c9c9c9 5%, #b6b6b6 100%);
+	background:-ms-linear-gradient(top, #c9c9c9 5%, #b6b6b6 100%);
+	background:linear-gradient(to bottom, #c9c9c9 5%, #b6b6b6 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c9c9c9', endColorstr='#b6b6b6',GradientType=0);
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #9A9A9A;
+	border-right: 1px solid #9A9A9A;
+	border-top: 1px solid #9a9a9a;
+}
+.Paginacion-link {
+	color: #d8d8d8;
+	border: 1px solid #fff;
+}
+.Paginacion-link:hover {
+	color: #474748;
+	border: 1px solid #d8d8d8;
+}
+.Pie-link {
+	color: #757575;	
+}
+.Pie-parrafo {
+	color: #858585;	
+}
+.Widget {
+	border-bottom: 1px solid #bfbfbf;
+	border-top: 1px solid #fff;
+}
+.Widget-link,
+.Widget-lista,
+.Widget-opcion {
+	color: #727272;
+}

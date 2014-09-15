@@ -1,0 +1,43 @@
+
+/* Estilos unicos de los Menus
+=================================*/
+
+.MenuPrincipal-link {
+	color:#000;
+	line-height: 3em;
+	font-family: "Open Sans";
+	font-size: 0.8em;
+	font-weight: normal;
+	padding: 0.5em;
+	text-decoration: none;	
+}
+.MenuPrincipal-link:hover {
+	background-color:#fff;
+	border: 1px solid #9a9a9a;
+	border-radius: 5px;
+		-webkit-border-radius: 5px;
+	padding: 0.5em;
+	        
+}
+.MenuPrincipal-lista {
+	border-radius: 5px;
+	display: block;
+	height: 3em;
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0.5em;
+}
+.MenuPrincipal-opcion {
+	display: inline-block;
+	margin: 0;
+	padding-top: 0.2em;
+}
+.MenuPrincipal-opcion:first-child {
+	border-radius: 5px;
+}
+.MenuPrincipal-opcion:last-child {
+	border-right: 0;
+}
+
+
+

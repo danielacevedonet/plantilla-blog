@@ -1,0 +1,35 @@
+
+.Articulo-autor,
+.Articulo-fecha {
+	text-decoration: none;
+}
+.Articulo-autor:hover,
+.Articulo-fecha:hover {
+	opacity: 0.7;
+}
+.Articulo-contenedorImagen {
+	margin-top: 1em;
+}
+.Articulo-imagen {
+	border-radius: 8px;
+	height: 12.6em;
+	width: 12.6em;
+}
+.Articulo-informacion {
+	font-size: 0.75em;
+	text-transform: uppercase;
+	font-style: italic;
+	padding: 0.5em;
+}
+.Articulo-link {
+	float: right;
+	font-size: 0.8em;
+	height: 2.4em;
+	padding: 0.5em 0.8em;
+	text-decoration: none;	
+	-webkit-border-radius: 13px;
+	        border-radius: 13px;
+}
+.Articulo-parrafo {
+	line-height: 150%;
+}
