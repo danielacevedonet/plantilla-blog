@@ -1,4 +1,27 @@
-<?php include('cabecera.php'); ?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<title>Plantilla Blog</title>
+	<link rel="stylesheet" href="../css/normalize.css" />	
+	<link rel="stylesheet" href="../css/Plantilla-blog.css" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<header class="Header">
+		<div class="Centrado">
+			<h1 class="Header-titulo">Plantilla Blog</h1>
+			<nav class="MenuPrincipal centrado">
+			<ul class="MenuPrincipal-lista">
+				<li class="MenuPrincipal-opcion"><a href="#" class="MenuPrincipal-link">Inicio</a></li>
+				<li class="MenuPrincipal-opcion"><a href="#" class="MenuPrincipal-link">Pagina Completa</a></li>
+				<li class="MenuPrincipal-opcion"><a href="#" class="MenuPrincipal-link">Menu 3</a></li>
+				<li class="MenuPrincipal-opcion"><a href="#" class="MenuPrincipal-link">Menu 4</a></li>
+				<li class="MenuPrincipal-opcion"><a href="#" class="MenuPrincipal-link">Contacto</a></li>
+			</ul>
+		</nav>
+		</div>
+	</header>
 	<div class="Centrado Fondo-gris">
 		<seccion class="Contenedor Caja-8 columna">
 			<article class="Articulo">
@@ -116,6 +139,40 @@
 				<a href="#" class="Paginacion-link">></a>
 			</div>
 		</seccion>
-		<?php include('lateral.php'); ?>
+		<div class="Lateral Caja-4 columna-sinMargen">
+			<aside class="Widget columna">
+				<h3 class="Widget-titulo">Recientes Articulos</h3>
+				<ul class="Widget-lista">
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Ut sagittis ultrices urna eget erat non</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Neque porro quisquam est qui</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Nam libero tempore, cum soluta nobis</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Magna suspendisse eleifend at nulla</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Etiam placerat ipsum porttitor ipsum</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">opcion 6</a></li>
+				</ul>
+			</aside>
+			<aside class="Widget columna">
+				<h3 class="Widget-titulo">Archivos</h3>
+				<ul class="Widget-lista">
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Septiembre 2014</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Agosto 2014</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Julio 2014</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Junio 2014</a></li>
+					<li class="Widget-opcion"><a href="#" class="Widget-link">Mayo 2014</a></li>
+				</ul>
+			</aside>
+			<aside class="Widget columna">
+				<h3 class="Widget-titulo">Imagen</h3>
+				<figure class="Widget-contenedorImagen">
+					<img src="../imagenes/Widget-imagen.jpg" alt="" class="Widget-imagen">
+				</figure>
+			</aside>
+		</div>
 	</div>
-<?php include('pie.php'); ?>
+	<footer class="Pie">
+		<div class="Centrado">
+			<p class="Pie-parrafo">Diseñado por <a href="#" class="Pie-link">Daniel Acevedo</a></p>
+		</div>
+	</footer>
+</body>
+</html>
